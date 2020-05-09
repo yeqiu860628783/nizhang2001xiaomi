@@ -12,6 +12,8 @@ let concat = require("gulp-concat");
 let connect = require("gulp-connect");
 //sass
 let sass = require("gulp-sass");
+//转es5
+// const babel = require('gulp-babel');
 
 g.task("watch-all",async ()=>{
     g.watch(["./www/**/*","!./www/*.scss"], async () => {
@@ -21,30 +23,33 @@ g.task("watch-all",async ()=>{
 
     g.watch("./www/*.html", async () => {
         g.src("./www/*.html")
-        .pipe(htmlmin({
-            collapseWhitespace:true,
-            // removeComments: true,
-            // collapseBooleanAttributes: true, 
-            // ​removeEmptyAttributes: true,
-            // ​removeScriptTypeAttributes: true,
-            // ​removeStyleLinkTypeAttributes: true,
-            // ​minifyJS: true, 
-            // ​minifyCSS: true
-        }))
+        // .pipe(htmlmin({
+        //     collapseWhitespace:true,
+        //     // removeComments: true,
+        //     // collapseBooleanAttributes: true, 
+        //     // ​removeEmptyAttributes: true,
+        //     // ​removeScriptTypeAttributes: true,
+        //     // ​removeStyleLinkTypeAttributes: true,
+        //     // ​minifyJS: true, 
+        //     // ​minifyCSS: true
+        // }))
         .pipe(g.dest("./dist/"));
     });
     //压缩CSS
-    g.watch("./www/css/*.css", async () => {
-        g.src("./www/css/*.css")
-        .pipe(cssmin())
-        .pipe(g.dest("./dist/css"));
-    });
+    // g.watch("./www/css/*.css", async () => {
+    //     g.src("./www/css/*.css")
+    //     .pipe(cssmin())
+    //     .pipe(g.dest("./dist/css"));
+    // });
     //压缩JS
-    g.watch("./www/js/*.js", async () => {
-        g.src("./www/js/*.js")
-            .pipe(uglify())
-            .pipe(g.dest("./dist/js"));
-    });
+    // g.watch("./www/js/*.js", async () => {
+    //     g.src("./www/js/*.js")
+    //     .pipe(babel({
+    //         presets: ['@babel/env']
+    //     }))
+    //     .pipe(uglify())
+    //     .pipe(g.dest("./dist/js"));
+    // });
 });
 
 g.task('sassgo', function () {

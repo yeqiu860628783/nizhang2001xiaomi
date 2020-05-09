@@ -99,7 +99,6 @@ $(function () {
         }
     }
 
-    
     let tab = $(".banner_con>ul>li")
     let nub = 1
     for(let i=0;i<10;i++){
@@ -121,6 +120,12 @@ $(function () {
     $(".banner_con>ol>li").mouseout(function () {
         $(".banner_con>ol").css("z-index", "-1");
         $(this).css("opacity", "0");
+    })
+
+
+
+    $(".gw").click(function(){
+        open("06gowuche.html")
     })
 })
 

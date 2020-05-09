@@ -125,6 +125,16 @@ $(function () {
         $(".banner_con>ol").css("z-index", "-1");
         $(this).css("opacity", "0");
     })
+
+    $(".clc").click(function () {
+        open('04shangping.html')
+    })
+    $(".cl").click(function(){
+        open('05spleibiao.html')
+    })
+    $(".gw").click(function () {
+        open("06gowuche.html")
+    })
 })
 
 
