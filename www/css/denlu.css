@@ -1,0 +1,178 @@
+body{
+    font-family: arial,"Hiragino Sans GB","Microsoft YaHei","微軟正黑體","儷黑 Pro",sans-serif;
+}
+
+h1 a{
+    position: relative;
+    left:194px;
+    display: block;
+    width: 200px;
+    height: 98px;
+    text-indent: -9999em;
+    background: url(../images/mistore_logo.png) no-repeat;
+}
+/* 中间部分 */
+
+main{
+    width: 1130px;
+    margin: 0 auto;
+    height: 686px;
+}
+.main{
+    margin-top: 30px;
+    width: 410px;
+    float: right;
+    position: relative;
+}
+
+form ul li {
+    width: 205px;
+    padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #f56600;
+    float: left;
+}
+form ul li:nth-of-type(1){
+    width: 175px;
+    padding: 27px 0 24px 30px;
+}
+.li2{
+    color: #666;
+}
+.li2:hover{
+    color: #f56600;
+}
+form ul span {
+    width: 1px;
+    height: 28px;
+    top: 27px;
+    position: absolute;
+    border: 1px solid #e0e0e0;
+}
+form input{
+    width: 312px;
+    height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+    margin-left: 45px;
+    color:#999;
+    margin-bottom: 14px;
+    border: 1px solid #e0e0e0;
+    font-size: 100%;
+    font-size: 14px;
+}
+#btn{
+    width: 346px;
+    height: 50px;
+    display: block;
+    margin: 24px 0 12px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff6700;
+    border: 0 none;
+    margin-left: 45px;
+}
+form p {
+    padding: 0 10px 0 45px;
+}
+form p a {
+    color: #999;
+    font-size: 14px;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 0;
+}
+form p a:nth-child(1){
+    color: #ff6700;
+    margin-right:90px;
+}
+form p a:hover{
+    color: #ff6700;
+}
+form p a:nth-of-type(2){
+    padding-right:5px ;
+    border-right: 1px solid #999;
+}
+.main div{
+    margin-top: 143px;
+    padding: 0 45px;
+}
+.main div p {
+    width: 348px;
+    text-align: center;
+    color: #bbb;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+.main div ul{
+    padding: 0 32px;
+}
+.main div ul li {
+    float: left;
+}
+.main div ul li a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 17px;
+    background: url(../images/tubiao.png) no-repeat ;
+    background-size: cover;
+}
+.main div ul li:nth-of-type(2) a{
+    background-position: -63px;
+}
+.main div ul li:nth-of-type(3) a{
+    background-position: -125px;
+}
+.main div ul li:nth-of-type(4) a{
+    background-position: -187px;
+}
+footer {
+    padding-top: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-size: 14px;
+}
+
+footer p a:nth-of-type(1) {
+    border: none;
+    color: #333;
+}
+
+footer p a {
+    display: inline-block;
+    padding: 0 10px;
+    color: #757575;
+    border-left: 1px solid #757575;
+}
+footer p a:hover,
+#beian a:hover {
+color: #333;
+}
+footer p:nth-of-type(2) {
+    margin-top: 13px;
+    color: #9d9d9d;
+    text-align: center;
+}
+#beian{
+    padding:0px 10px 10px;
+}
+#beian img{
+    display: inline-block;
+}
+#beian a{
+    margin-top: 0;
+    padding: 0;
+    color: #9d9d9d;
+}

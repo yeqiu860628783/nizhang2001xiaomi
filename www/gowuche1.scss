@@ -1,0 +1,25 @@
+$baseSize:12px;
+#box0{
+    font-size: $baseSize + 2;
+    ul{
+        list-style: none;
+        li{
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+        .cls{
+            background-color: green;
+        }
+        a{
+            color: blue;
+        }
+    }
+    .mian{
+        height: 300px;
+        height: 300px;
+    }
+    .box{
+        width: 100px;
+    }
+}

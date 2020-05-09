@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "90513",
+      "name": "15天无理由退货",
+      "font_class": "15tianwuliyoutuihuo",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "886908",
+      "name": "三角形",
+      "font_class": "sanjiaoxing",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "2742644",
+      "name": "礼盒",
+      "font_class": "lihe",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "5924470",
+      "name": "地点",
+      "font_class": "didian",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "6102942",
+      "name": "七天无理由退换",
+      "font_class": "qitianwuliyoutuihuan",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "13953604",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e55e",
+      "unicode_decimal": 58718
+    }
+  ]
+}

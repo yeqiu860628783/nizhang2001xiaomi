@@ -1,0 +1,386 @@
+@charset "utf-8";
+.logo_con,.seb_con,.banner_con,.home_con,.case_con,.items_con,.footer_con {
+    width: 1226px;
+    margin: 0 auto;
+}
+body {
+    overflow-x: hidden;
+    font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    color: #333;
+}
+header{
+    width: 100%;
+    height: 799px;
+    position: relative;
+}
+header a{
+    display: block;
+    position: absolute;
+    width: 2560px;
+    height: 799px;
+    left: 0px;
+    top: 0px;
+    margin-left: -26%;
+}
+header img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.pro{
+    position: relative;
+    width: 100%;
+    height: 167px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.pro-col{
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    height: 167px;
+    margin-left: -1280px;
+}
+.pro-col a{
+    display: block;
+    position: absolute;
+    width: 2560px;
+    height: 167px;
+    left: 0px;
+    top: 0px;
+}
+.pro-col a img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+main{
+    background: rgb(234, 135, 94);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+main .main{
+    background: #fff;
+    margin: 0 auto;
+    height: 434px;
+    text-align: left;
+    display: flex;
+    width: 1226px;
+}
+main .main a{
+    
+    position: relative;
+    overflow: hidden;
+    width: 854px;
+    height: 100%;
+}
+main .main a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #e6e6e6;
+    
+}
+main .main a:hover img{
+    transition: all .6s;
+    transform: scale(1.05) translateZ(0);
+}
+main .main .item-con{
+    padding-bottom: 10px;
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding-top: 105px;
+    padding-left: 42px;
+}
+main .main .item-con a:nth-of-type(1){
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #242424;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+main .main .item-con p:nth-of-type(1){
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    margin: 0;
+}
+main .main .item-con p:nth-of-type(2) {
+    color: rgb(234, 98, 91);
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 45px;
+}
+main .main .item-con p:nth-of-type(2) sup{
+    top: -3px;
+    margin-right: 2px;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+main .main .item-con p:nth-of-type(2) span em{
+    font-style: normal;
+    font-size: 14px;
+}
+main .main .item-con p:nth-of-type(2)  del{
+    font-size: 14px;
+    margin-left: 10px;
+    display: inline-block;
+    color: #666;
+}
+main .main .item-con p:nth-of-type(2)  del sup{
+    top: -1px;
+    margin-right: 2px;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+main .main .item-con p:nth-of-type(2)  del span{
+    font-size: 14px;
+    color: #666;
+}
+main .main .item-con a:nth-of-type(2){
+    border-radius: 2px;
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    margin-top: 18px;
+    color: rgb(255, 255, 255);
+    background: rgb(234, 98, 91);
+    transition: all .4s;
+}
+.channel-line{
+    background-color: rgb(234, 135, 94);
+    height: 12px;
+    width: 100%;
+}
+.con{
+    background: rgb(234, 135, 94);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.con ul{
+    margin: 0 auto;
+    padding: 0;
+    width: 1226px;
+}
+.con ul li{
+    background: #fff;
+    height: 492px;
+    width: 606px;
+    list-style: none;
+    float: left;
+    text-align: left;
+}
+.con ul li:nth-of-type(1),
+.con ul li:nth-of-type(3),
+.con ul li:nth-of-type(5),
+.con ul li:nth-of-type(7){
+    margin-right: 14px;
+}
+.con ul li .tu{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 606px;
+    height: 358px;
+}
+.con ul li .tu img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #e6e6e6;
+    
+}
+.con ul li .tu img:hover{
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+    transform: scale(1.05) translateZ(0);
+}
+.item-con{
+    padding-bottom: 10px;
+}
+.item-con .con-l{
+    margin-left: 28px;
+    padding-top: 35px;
+    float: left;
+    width: 360px;
+}
+.item-con .con-l a{
+    font-weight: 400;
+    font-size: 24px;
+    display: block;
+    color: #242424;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 22px;
+}
+.item-con .con-l p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    margin: 0;
+}
+.item-con .con-r{
+    float: right;
+    margin-right: 45px;
+    padding-top: 25px;
+    text-align: right;
+}
+.item-con .con-r p{
+    color: rgb(234, 98, 91);
+    font-size: 24px;
+    line-height: 1;
+}
+.item-con .con-r p sup{
+    top: -3px;
+    margin-right: 2px;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+.item-con .con-r p span em{
+    font-style: normal;
+    font-size: 14px;
+}
+.item-con .con-r p del{
+    font-size: 14px;
+    margin-left: 10px;
+    display: inline-block;
+    color: #666;
+}
+.item-con .con-r p del sup{
+    top: -1px;
+}
+.item-con .con-r p del span{
+    font-size: 14px;
+    color: #666;
+}
+.item-con .con-r p del span em{
+    font-style: normal;
+    font-size: 14px;
+}
+.item-con .con-r a{
+    color: rgb(255, 255, 255);
+    background: rgb(234, 98, 91);
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 160px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    transition: all .4s;
+}
+.celang,
+.huidin{
+    position: fixed;
+    bottom: 170px;
+    right: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+.celang a,
+.huidin a{
+    position: relative;
+    display: block;
+    width: 82px;
+    height: 90px;
+    margin-top: -1px;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+    line-height: 130px;
+    color: #757575;
+}
+.celang a:hover,
+.huidin a:hover {
+    transition: all .2s;
+    color: #ff6700
+}
+.celang a:nth-of-type(1){
+    background: url(../img/146.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+}
+.celang a:nth-of-type(1):hover {
+    background: url(../img/141.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+    transition: all .2s;
+}
+.celang a:nth-of-type(2) {
+    background: url(../img/140.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+}
+.celang a:nth-of-type(2):hover {
+    background: url(../img/138.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+    transition: all .2s;
+}
+.celang a:nth-of-type(3) {
+    background: url(../img/136.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+}
+.celang a:nth-of-type(3):hover {
+    background: url(../img/145.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+    transition: all .2s;
+}
+.celang a:nth-of-type(4) {
+    background: url(../img/131.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+}
+.celang a:nth-of-type(4):hover {
+    background: url(../img/134.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+    transition: all .2s;
+}
+.celang a:nth-of-type(5) {
+    background: url(../img/17.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+}
+.celang a:nth-of-type(5):hover {
+    background: url(../img/148.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+    transition: all .2s;
+}
+
+.huidin {
+    bottom: 70px;
+    display: none;
+}
+.huidin a {
+    background: url(../img/119.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+}
+
+.huidin a:hover {
+    background: url(../img/120.png) no-repeat center;
+    background-size: 30px;
+    background-position-y: 13px;
+    transition: all .2s;
+}

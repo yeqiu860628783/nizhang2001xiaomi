@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米账号-注册</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/zhuce.css">
+</head>
+<body>
+    <main>
+        <h1>
+            <a href="03index.html"><img src="./images/milogo.png" alt=""></a>
+        </h1>
+        <div class="main">
+            <h2>注册小米帐号</h2>
+            <form id="f">
+                <img class="wait" src="./images/loading.gif" alt="加载">
+                <img class="wait1" src="./images/loading1.gif" alt="加载">
+                <p>帐号</p>
+                <input type="text" id="username" placeholder="数字，字母，下划线组成，不能以数字开头，6-16位" maxlength="16"><span
+                    class="s1"></span>
+                <p class="p">成功注册后，帐号将不能被修改</p>
+                <p>密码</p>
+                <input type="password" id="userpass" placeholder="6-16位数字和字母" maxlength="16">
+                <span class="s2"></span>
+                <div class="qiangdu"></div>
+                <em id="em"><img src="./images/xianshi.png"></em>
+                <em id="em1"><img src="./images/yingcan.png"></em>
+                <input type="button" id="btnReg" value="立即注册">
+            </form>
+            <p>已阅读并同意：小米
+                <a class="xieye" href="#">用户协议</a>和
+                <a class="yingsi" href="#">隐私政策</a>
+            </p>
+        </div>
+    </main> 
+    <footer>
+        <p>
+            <a href="#">简体</a>
+            <a href="#">繁体</a>
+            <a href="#">English</a>
+            <a href="#">常见问题</a>
+        </p>
+        <p id="beian">小米公司版权所有-京ICP备10046444-<img
+            src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"
+            alt="备案">京公网安备11010802020134号-京ICP证110507号
+        </p>
+    </footer>
+</body>
+</html>
+<script src="./js/jQuery.js"></script>
+<script src="./js/01zhuce.js"></script>
